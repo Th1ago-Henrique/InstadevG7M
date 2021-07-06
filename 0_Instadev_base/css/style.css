@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FAFAFA;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 110px 0;
+}
+
+.container_login{   
+    background-color: #FFFFFF;
+    width: 342px;
+    height: 380px;
+    border: 1px solid #F1F1F1;
+}
+
+.login{
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: magenta; */
+}
+
+.login img{
+    width: 165px;
+}
+
+.preenchimento{
+    height: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.text_box{
+    width: 267px;
+    height: 35px;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding-left: 10px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    background-color: #FAFAFA;
+}
+
+::-webkit-input-placeholder{
+    color: #AFAFAF;
+}
+
+.btn_entrar{
+    color: #FFFFFF;
+    background-color: #2686CC;
+    border: 1px solid #2686CC;
+    border-radius: 2px;
+    width: 267px;
+    height: 30px;
+}
+
+.separacao_container{
+    display: flex;
+    align-items: center;
+}
+
+.separacao_container hr{
+    width: 109px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border: 1px solid #CBCBCB;
+}
+
+.separacao_container p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: #909090;
+    text-transform: uppercase;
+    /* background-color: chocolate; */
+    text-align: center;
+}
+
+.login a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: #2686CC;
+}
+
+.container_cadastrar{
+    height: 75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    border: 1px solid #F1F1F1;
+}
+
+.container_cadastrar a{
+    text-decoration: none;
+    color: #2686CC;
+    font-weight: 600;
+}
+
+.apps{
+    /* background-color: chartreuse; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80px;
+}
+
+.logo_apps{
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+}
