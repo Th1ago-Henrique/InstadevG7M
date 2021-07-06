@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+body {
+    background: #FAFAFA;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.cadastro {
+    width: 342px;
+    height: 461px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.logo {
+    width: 200px;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* font-weight: 600; */
+    color: #909090;
+
+    width: 450px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: #FFFFFF;
+    border: 1px solid #F1F1F1;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form span {
+    width: 230px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.form p {
+    width: 360px;
+}
+
+.form-size{
+    width: 340px;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 1px solid #DCDCDC
+}
+
+::-webkit-input-placeholder{
+    color: #AFAFAF;
+}
+
+.form button {
+    font-weight: 600;
+    color: #FFFFFF;
+    background: #2686CC;
+    border-radius: 2px;
+}
+
+.spacing {
+    margin-top: 25px;
+}
+
+.conta {
+    width: 450px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: #FFFFFF;
+    border: 1px solid #F1F1F1;
+}
+
+.conta a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: #2686CC;
+    font-weight: 600;
+}
+
+.app span {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.app img{
+    height: 50px;
+    width: 170px;
+}
+
+.img-app {
+    width: 380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}

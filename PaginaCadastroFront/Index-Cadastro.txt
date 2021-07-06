@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro - Instadev</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="cadastro">
+
+            <section class="form">
+
+                <img class="logo" src="Images/logo.png" alt="Instadev">
+
+                <span class="spacing">Cadastre-se para ver fotos e vídeos dos seus amigos.</span>
+
+                <form action="">
+                    <input class="form-size" type="text" placeholder="Email">
+                    <input class="form-size" type="text" placeholder="Nome completo">
+                    <input class="form-size" type="text" placeholder="Nome de usuário">
+                    <input class="form-size" type="text" placeholder="Senha">
+
+                    <button class="form-size spacing">Cadastre-se</button>
+                </form>
+
+
+                <p class="spacing">Ao se cadastrar, você concorda com nossos Termos, Políticas de Dados e Política de
+                    Cookies.</p>
+
+            </section>
+
+            <section class="conta">
+
+                <span>Tem uma conta? </span><a href=""> Conecte-se</a>
+
+            </section>
+
+            <section class="app">
+
+                <span>Obtenha o aplicativo</span>
+
+                <div class="img-app">
+
+                    <img class="app" src="Images/app_store 1.png" alt="App Store">
+                    <img class="app" src="Images/google_play 1.png" alt="Google Play">
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
